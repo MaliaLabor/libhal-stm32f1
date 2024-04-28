@@ -19,6 +19,7 @@ project(demos LANGUAGES CXX)
 libhal_build_demos(
   DEMOS
   blinker
+  button
   systick_timer
 
   PACKAGES

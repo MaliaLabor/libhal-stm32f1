@@ -31,7 +31,7 @@ class libhal_stm32f1_conan(ConanFile):
               "stm32f1xx", "stm32f172", "stm32f174", "stm32f178", "stm32f188")
     settings = "compiler", "build_type", "os", "arch"
 
-    python_requires = "libhal-bootstrap/[^1.0.0]"
+    python_requires = "libhal-bootstrap/[^1.0.3]"
     python_requires_extend = "libhal-bootstrap.library"
 
     options = {

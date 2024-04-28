@@ -21,6 +21,7 @@ libhal_test_and_make_library(
 
   SOURCES
   src/clock.cpp
+  src/input_pin.cpp
   src/output_pin.cpp
   src/pin.cpp
   src/power.cpp
